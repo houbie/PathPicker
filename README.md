@@ -16,6 +16,9 @@ cd PathPicker
 ./pw test
 ```
 
+**NOTE** Building the project this way should also work on Windows,
+although PathPicker itself is not intended for Windows.
+
 ## How?
 Just by copying _pw_ and _pw.bat_ from [Python Wraptor](https://github.com/houbie/python-wraptor)
 to your project's root and adding the **tool.wraptor** sections to _pyproject.toml_
